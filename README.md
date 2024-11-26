@@ -26,7 +26,7 @@ kind create cluster --config kind-cluster-config.yml
 ```
 ***This command will give you a cluster with one control plane & 2 worker node***
 
-To verify your cluster created successfully you can run this command *(This will show you a list of created clusters)* :
+To verify your cluster created successfully you can run this command *(This command will show you a list of created clusters)* :
 ```bash
 kind get nodes
 ```
