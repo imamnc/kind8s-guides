@@ -99,3 +99,15 @@ Kill the process id using this command :
 ```bash
 kill <pid>
 ```
+
+## 5. Renew Certificate Error
+
+If you cannot run kubectl correctly because of certificate expired, you can fix it by running this command on your kind control-plane container
+```bash
+kubeadm certs renew all
+```
+
+To check certificate expiration you can use this command : 
+```bash
+kubeadm certs check-expiration
+```
