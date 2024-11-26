@@ -93,7 +93,7 @@ To kill portainer process, use this command :
 ```bash
 ps aux | grep "kubectl port-forward"
 ```
-It wil list running process and with <pid>
+It wil list running process and with process id listed
 
 Kill the process id using this command :
 ```bash
