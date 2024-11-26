@@ -28,7 +28,7 @@ kind create cluster --config kind-cluster-config.yml
 
 To verify your cluster created successfully you can run this command *(This command will show you a list of created clusters)* :
 ```bash
-kind get nodes
+kind get clusters
 ```
 
 To get list of nodes in your created cluster you can run this command :
